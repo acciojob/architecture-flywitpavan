@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+/* General content width */
+.content {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Image container styling */
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.infoTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.infoTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+/* Column width */
+.infoTable td:first-child,
+.infoTable td:last-child {
+    width: 200px;
+}
+
+.infoTable td:nth-child(2) {
+    width: 600px;
+    text-align: justify;
+}
+
+/* Image in table */
+.infoTable td img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
